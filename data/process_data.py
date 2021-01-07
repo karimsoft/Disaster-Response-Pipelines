@@ -81,7 +81,7 @@ def save_data(df, database_filename):
         database_filename - SQLite database file (.db) destination path
     """
     engine = create_engine('sqlite:///'+ database_filename)
-    df.to_sql('message_categories', engine, index=False)
+    df.to_sql('MessageCategoriesETL', engine, index=False)
     pass 
 
 
