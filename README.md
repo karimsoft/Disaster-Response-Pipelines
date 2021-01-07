@@ -39,3 +39,21 @@ In the data and model folder you can find Jupyter notebooks that will help you u
     ML Pipeline Preparation Notebook: analyzing machine learning models through NLP process to find the final model.
     ML Pipeline Final Notebook: the final machine learning model used for web app.
  
+ 
+#### Project Structure Files 
+    app
+    | - template
+    | |- master.html # main page of web app
+    | |- go.html # classification result page of web app
+    |- run.py # Flask file that runs app
+    data
+    |- disaster_categories.csv # data to process
+    |- disaster_messages.csv # data to process
+    |- process_data.py
+    |- MessageCategoriesETL.db # database to save clean data to
+    models
+    |- train_classifier.py
+    |- model.p # saved model
+    README.md
+
+
