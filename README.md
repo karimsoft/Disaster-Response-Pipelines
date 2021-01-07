@@ -1,5 +1,23 @@
 # Disaster Response Pipeline Project
 
+#### Description
+
+This Project is a part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The initial dataset contains pre-labelled tweet and messages from real-life disaster. The aim of the project is to build a Natural Language Processing (NLP) tool that categorize disaster messages.
+
+The Project is divided in the following Sections:
+
+    Data Processing, ETL Pipeline to extract data from source, clean data and save them in a proper database structure.
+    Machine Learning Pipeline to train a model able to classify text messages into appropriate categories.
+    Web App to show model results in real time.
+
+#### Dependencies
+
+    Python 3.5+ (I used Python 3.8)
+    Machine Learning libraries: NumPy, SciPy, Pandas, Sciki-Learn
+    Natural Language Process libraries: NLTK
+    SQLite Database libraries: SQLalchemy
+    Web App and Data Visualization: Flask, Plotly
+
 ### Instructions:
 1. Run the following commands in the project's root directory to set up your database and model.
 
@@ -12,3 +30,12 @@
     `python run.py`
 
 3. Go to http://0.0.0.0:3001/
+
+#### Additional Material
+
+In the data and model folder you can find Jupyter notebooks that will help you understand how the model works step by step:
+
+    ETL Preparation Notebook: an implemented ETL pipeline which extracts, transforms, and loads raw dataset into a cleaned dataset.
+    ML Pipeline Preparation Notebook: analyzing machine learning models through NLP process to find the final model.
+    ML Pipeline Final Notebook: the final machine learning model used for web app.
+ 
