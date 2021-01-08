@@ -60,9 +60,8 @@ def clean_data(df):
         # convert column from string to numeric
         categories[column] = categories[column].astype(int)
 		
-	# convert no. up one to one
-	if categories[column] >1:
-		categories[column] =1
+		# convert no. two to one
+		categories[column] =categories[column].replace("2","1")
 
     # drop the original categories column from `df`
     df.drop('categories', axis=1, inplace=True)
