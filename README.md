@@ -58,10 +58,10 @@ In the data and model folder you can find Jupyter notebooks that will help you u
     |- disaster_categories.csv # data to process
     |- disaster_messages.csv # data to process
     |- process_data.py
-    |- MessageCategoriesETL.db # database to save clean data to
+    |- DisasterResponse.db # database to save clean data to
     models
     |- train_classifier.py
-    |- model.p # saved model
+    |- classifier.pkl # saved model
     README.md
 
 
