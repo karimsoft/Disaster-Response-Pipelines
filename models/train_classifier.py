@@ -2,7 +2,7 @@
 Train Classifier Script
 For Udacity Data Scientist Nanodegree Program Project: Disaster Response Pipeline
 Usage:
-> python train_classifier.py ../data/DisasterResponse.db model.p
+> python train_classifier.py ../data/DisasterResponse.db classifier.pkl
 Arguments:
     1) Input File 1: DisasterResponse_Processed.db - SQLite database
     2) Input File 2: ML Model                      - pickle file
