@@ -1,5 +1,13 @@
 # Disaster Response Pipeline Project
 
+#### Introduction
+
+After a disaster, responsible agencies typically receive millions of direct or social media communications just when disaster response organizations are least able to filter and select the most important messages. Often, only one in a thousand messages is relevant for disaster response professionals. Typically, in response to disasters, Different organizations take care of different parts of the problem. One organization takes care of water, another takes care of blocked roads, another takes care of medical supplies.
+
+#### Objectives
+
+This Project is a part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. This project aims to develop a computational model based on the Natural Language Processing (NLP) to classify messages and identify needs after a disaster.
+
 #### Description
 
 This Project is a part of Data Science Nanodegree Program by Udacity in collaboration with Figure Eight. The initial dataset contains pre-labelled tweet and messages from real-life disaster. The aim of the project is to build a Natural Language Processing (NLP) tool that categorize disaster messages.
